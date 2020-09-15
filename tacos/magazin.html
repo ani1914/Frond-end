@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="magazin.css" />
+    <script src="jQuery.js" type="text/javascript"></script>
+    <script src="magazin.js" type="text/javascript"></script>
+</head>
+
+<body id="style">
+    <header id="header">
+        <button type="button" onclick="none()" class="open">☰ Menu</button>
+        <nav id="menu">
+
+            <a class="nav">TACOS</a>
+
+
+            <a class="nav">BEERS</a>
+
+
+            <a class="nav">WINES</a>
+
+            <a class="nav">DESSERTS</a>
+
+
+            <a class="nav">RESERVATION</a>
+
+
+        </nav>
+    </header>
+    <main>
+        <section class="main">
+            <section class="grid-container">
+                <div class="head1">
+                    <h2 class="name1">Anto's Taco Joint</h2>
+                    <p class="name">Pretty Good Tacos!</p>
+                </div>
+                <div class="head2">
+                    <h2 class="h1">$ 1.99</h2>
+                    <p class="p1">Tacos</p>
+                </div>
+                <div class="head3">
+                    <h2 class="h1">$ 3.99</h2>
+                    <p class="p1">Kombucha</p>
+                </div>
+
+            </section>
+            <section id="sale">
+                <div class="promotion">
+                    <img class="img" src="https://www.chronictacos.com/assets/media/on_page_element/footer-logo02.png" alt="no picture">
+
+                    <h2 class="opt">CORONATACO </h2>
+
+                    <p class="sors">1 Bebida+ 5 Tacos = 10€ </p>
+                </div>
+                <div class="promotion">
+                    <img class="img" src="https://www.capegazette.com/sites/capegazette/files/2016/09/field/image/YES%20Taco.jpg" alt="no picture">
+                    <h2 class="opt">EPIDÉMICO </h2>
+                    <p class="sors">2 bebidas+ Nachos Marranos + 4 Tacos ó 2 Sincronizadas =15€ </p>
+                </div>
+                <div class="promotion">
+                    <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQEfJcEvHXwKG1z4xjW2WfOajbaMYWIdnpjYw&usqp=CAU" alt="no picture">
+                    <h2 class="opt">PANDÉMICO </h2>
+                    <p class="sors">4 Bebidas + Nachos marranos + 8 Tacos ó 4 Sincronizadas = 25€ </p>
+                </div>
+                <div class="promotion">
+                    <img class="img" src="https://1.bp.blogspot.com/-KFUFxK9TA78/XqiLMH1wDyI/AAAAAAABLd4/y3JP7CmlcN8MvUWy56GUXNhPFFEX0ty1ACLcBGAsYHQ/s1600/taco-bell-free-taco-april-28.jpg" alt="no picture">
+                    <h2 class="opt">APOCALÍPTICO </h2>
+                    <p class="sors">6 Bebidas + Nachos marranos + 12 Tacos ó 6 sincronizadas = 35€ </p>
+                </div>
+            </section>
+            <section id="learn_more">
+                <img id="tacos_img" src="https://cdn.pixabay.com/photo/2016/12/13/19/20/tacos-1904921_1280.jpg" alt="Taco">
+                <div>
+                    <h2 class="h11">Featured Taco</h2>
+                    <p class="pp">Slim Profile, easy to hold and loaded with cheese.</p>
+                    <p class="pp">This is the one you have been waiting for</p>
+                    <a href="https://www.pinterest.com/pin/263742121909633278/" class="button1">Learn More -></a>
+                </div>
+            </section>
+
+        </section>
+    </main>
+    <footer>
+        <section id="footer_sec">
+            <div id="footer">
+                <h2 class="h11">Contact Us</h2>
+                <p class="pp">Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="final">
+                <div class="div_div">
+                    <div>
+                        <img id="footer_img" src="https://www.lifewire.com/thmb/10fONV_vt8G_xccyGmGCjiog0_U=/1105x1105/smart/filters:no_upscale()/Maplocation_-5a492a4e482c52003601ea25.jpg " alt="not image">
+                    </div>
+                    <div id="name" class="div_form">
+                        <form>
+                            <label class="label"> First Name</label>
+                            <br>
+                            <input id="first_name" class="input" type="text" placeholder="Example: Martin....">
+                            <br>
+                            <label id="lname" class="label"> Last Name</label>
+                            <br>
+                            <input class="input" type="text" placeholder="Example: Sanchez...">
+                            <br>
+                            <label class="label">Country</label>
+                            <br>
+                            <select>
+                    <option >Slovenia</option>
+                    <option>Russia</option>
+                    <option>Germany</option>
+                    <option> Bulgaria</option>
+                    <option> Greece</option>
+                    <option>Serbia</option>
+                    <option>Slovakia</option>
+                        </select>
+                            <br>
+                            <label class="label">Subject</label>
+                            <br>
+                            <textarea class="input" placeholder="Write something."></textarea>
+                            <br>
+
+                            <button class="button1" onclick=" corect() ">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact">
+                    <p>Tel/fax: +359 87 53 6216</p>
+                    <p>Mail: tacos.bg@gmail.com</p>
+
+                    <p>89 Tsar Ivan street</p>
+
+                    <p>Sofia, Bulgaria</p>
+
+                    <div class="src">
+                        <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEVCZ7L///8qWKz6+vw+ZbE8Y7B5j8Ree7tKbLQvW62Jncvb4e9QcbY+ZLEyXa45YbCWp9Ds7/ZrhsDS2epXd7m3w9+Qos6drdPQ1+ni5/K/yeJkgL6Blsixvtzv8visudqjstZ7ksXH0OZohL+9yOH/Gkr+AAAD+0lEQVR4nO3dW3OqMBSG4QSCEoVExGOth9r+/9+4tdbZu7M7GqVhrZX53pveOTwDgpCEKv3VajItVSqV02V7hanLn61x3hjqDfu1TO2t2v4jbGaWepsiZGfNVTh2BfXWRKnw64uwcekcnt8zxe5TWNXUWxKtYnYW7h31dkTMzU/COtVj9JwptTqmeBr9m23VwlNvRNT8Um1SPkiVqgcqnZ9qP2Yq6i1ACCGEEEIIIYQQQmL6fBiY0NDfNVN775zNsqwoy1LV3mXnrHXWOe+LwohGF86qzWS/aptcf2vXrNvVcbtcLqZVZazM5/WmsNlgu9b3y3eNwKe9xhWjY4Duq0rakVrb2Ut+3yVWaLLN6hGeNKFxVXufJFhY2/3DPlFCN2yeAMoRmmz5jE+Q0D1wgZAoNG78JFCI0BRPfQXlCI0L+YUmWZg9fhWUJbTzDkAJQj/qAhQgNFUnoAChffo6IUToF92A7IXGdQSyF7pt6kLVFchd2H0XMhca2xnIXNj5RMpeaDv84hYh7Ppzhr/QH1IX/sZBylvY/WLIXOhfUxe6B+98m2Y9/r+SsfCBr2F+nAyN/SnOq+6MD955I2u9wMVZZhYIPFgvT3cu9EQzkDmQrc4rrsKAchdHupcQ4IfYPXg6lQaN9kpegR30kO1D7jGqVLYLEL5LXoOdBUy5yIVeJy6FCMeCzzNhQtFfwyDhQfQi7BDhQvLFIkj4mvw+fE1+H44gZB2EEPIPQgj5ByGE/IMQQv5BCCH/IISQR+ZGQUJ/6xMMg6XOwxtVAcLJ7NYnnCJ+q6UZ3jd0LUtd2CQvbGmHbnoQEg9O9SBc0g5s9CAcJS8c0o7z9yAknpkYX5gTj/PHF66TFx6JZzLEF86TF06Ix/njC9+I7x/jC6mnsccXUk+Zii5sqKe9RReST+yLLnxJ/igln9gXXUj+sDG6cEM9Rzq6kHzdWmxhTvugrQch+eUwupD63im+kH6ee2wh9b1TfCH9LPDYQvKLRXQh/cLZyMId+YkmtpD6UWJ8If3l8FR5Ix8wyv126xMU+dfwTiEzFQa3bo+4A7sL2QchhPyDEEL+QQgh/yCEkH8QQsg/CCHkH4QQ8g9CCPkHIYT8gxBC/kEIIf8ghJB/EELIPwgh5B+EEPIPQgj5ByGE/IMQQv5BCCH/IISQfxBCyD8IIeQfhBDyD0IIH4joFZl9CU2p3hMXTtWE5mDvS+gnakXznpe+hLZVOumj1Cit9J7kVTY9Ce38JNQVxTsk+xEWM30Wri3BgdqLsK53n0I9dv3vxT6Evl7ri1A3let7N8YXGrvZ6atQ633hil7/QVRcoam9LT8un/Il1PlqsSl/k3CnuMJyumyvn/IHstJMOhEjrRsAAAAASUVORK5CYII=">
+                        <img class="logo" src="https://image.similarpng.com/very-thumbnail/2020/05/Instagram-logo-with-brush-PNG.png">
+                        <img class="logo" src="data:image/png;base64,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">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
