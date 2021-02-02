@@ -1,0 +1,62 @@
+                    body {
+                        box-sizing: border-box;
+                        margin: 0%;
+                        background-image: url('home.jpg');
+                        background-size: cover;
+                    }
+                    
+                    .flex {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    
+                    h1 {
+                        color: rgb(226, 196, 139);
+                        font-size: 170px;
+                        font-weight: 900;
+                        letter-spacing: 25px;
+                        text-shadow: 7px 2px 5px wheat;
+                        margin-top: 18%;
+                        margin-bottom: 0%;
+                    }
+                    
+                    .p1 {
+                        color: wheat;
+                        font-size: 24px;
+                        font-family: Marker Felt, fantasy;
+                        font-style: italic;
+                        margin-top: -18px;
+                        margin-bottom: 0%;
+                        text-shadow: 4px 2px 5px black;
+                    }
+                    
+                    h2 {
+                        color: rgb(226, 196, 139);
+                        font-size: 32px;
+                        font-family: Snell Roundhand, cursive;
+                        text-shadow: 16px 2px 5px black;
+                    }
+                    
+                    .flex1 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 13%;
+                    }
+                    
+                    h3 {
+                        color: wheat;
+                        font-size: 27px;
+                        font-family: Snell Roundhand, cursive;
+                    }
+                    
+                    .p2 {
+                        color: rgb(226, 196, 139);
+                        font-size: 31px;
+                        font-family: Snell Roundhand, cursive;
+                        font-style: italic;
+                        margin-top: -18px;
+                        margin-bottom: 0%;
+                        text-shadow: 4px 2px 5px black;
+                    }
